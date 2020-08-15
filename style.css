@@ -352,7 +352,7 @@ a{
 }
 
 @media only screen 
-    and (min-device-width: 330px)
+    and (min-device-width: 320px)
     and (max-device-width: 640px)
     and (-webkit-min-device-pixel-ratio: 1){
         .top{
@@ -412,13 +412,12 @@ a{
         text-align: center;
     }
     .profile{
-        position: relative;
+    
         width: 80px;
         height: 80px;
         border-radius: 50%;
         background-color: #fff;
-        position: absolute;
-        margin-top: -17.5em;
+       
         margin-left: 210px;
         border: 2px solid #ff9c07;
     }
