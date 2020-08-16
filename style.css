@@ -145,22 +145,34 @@ h3{
     letter-spacing: 2px;
     font-weight: 800;
 }
-p{
-    padding: 0 18em 0 3em;
+p{  
+    
+    padding: 0 0 0 3em;
     margin-bottom: 3em;
     display: flex;
     font-size: 1.2rem;
     font-weight: 500;
     
 }
+.Aboutss{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.about01{
+    
+    width: 70%;
+}
 .profile{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-color: #fff;
-    position: absolute;
-    margin-top: -17em;
-    margin-left: 35em;
+    margin: 1rem 3em 0 0;  
+     /*position: absolute;
+   margin-top: -17em;
+    margin-left: 35em; */
     border: 2px solid #ff9c07;
 }
 .tag{
@@ -213,16 +225,15 @@ p{
     font-weight: 800;
 }
 .wrapper .more{
-    margin-top: 1rem;
+    margin: 2rem 6em 1rem 6em;
     padding: .2rem 1rem;
     background-color: #ff2907;
     border-radius: 10px;
     text-align: center;
     color: #fff;
-    margin-left: 35%;
     font-weight: 800;
-
 }
+
 .more:hover{
     background-color: rgb(236, 214, 214);
     color: rgb(73, 60, 60);
@@ -245,6 +256,11 @@ p{
 }
 .fade-in1.appear{
     opacity: 1;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    
 }
 .process{
     position: relative;
@@ -271,7 +287,6 @@ p{
 .contact{
     width: 100%;
     height: 15em;
-    
 }
 .contact h8{
     text-align: left;
@@ -357,10 +372,11 @@ a{
     and (-webkit-min-device-pixel-ratio: 1){
         .top{
           position: fixed;
+        
         }
         .container{
           width: 100%;
-          color: #000;
+          color: #fff;
         }
         .logo{
             width: 50px;
@@ -385,7 +401,7 @@ a{
             width: 310px;
             font-size: 1.2rem;
             margin: 0 1rem 2rem 1rem;
-            color: #000;
+            color: #fff;
     }
     .fas{
         padding-left: 1rem;
@@ -397,7 +413,8 @@ a{
         top: 65vh;
         border-radius: 10px;
         border-radius: 0;
-        height: 500vh;
+        height: 420vh;
+        z-index: 1000;
     }
     .tag{
         position: relative;
@@ -417,37 +434,50 @@ a{
         height: 80px;
         border-radius: 50%;
         background-color: #fff;
-       
-        margin-left: 210px;
         border: 2px solid #ff9c07;
     }
     h3{
        
-        padding: 3rem 0 2em 3em;
+        padding: 3rem 0 2em 2em;
         font-size: 1.5em;
         letter-spacing: 1px;
         font-weight: 600;
     }
-    p{
-        width: 85%;
+    .about01 p{
+        width: 130%;
         padding: 0 1em 0 2rem;
         margin-bottom: 3em;
         font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    p{
+        width: 100%;
+        padding: 0 1em 0 2rem;
+        margin-bottom: 3em;
+        font-size: 1rem;
+        letter-spacing: 1px;
         
     }
     .proqua{
         margin: 1em auto;
-     
-        height: 45em;
+        background-color: #fff;
+        height: 55em;
         display: block;
-        background-color: #000;
+        
+        
     }
-
+    .inner{
+        display: block;
+         z-index: 1000; 
+        
+    }
+    
     .process{
        
-        width: 100%; 
+        width: 90%; 
+        margin: 0 auto;
         margin-bottom: .5rem;  
-        color: #fff;
+        color: #000;
     }
 
     .process h6{
@@ -496,6 +526,9 @@ a{
         margin: 1em auto;
         font-size: 1rem;
         font-weight: 500;
+    }
+    .contact{
+       background-color: rgb(39, 31, 31);
     }
 }
 
@@ -574,26 +607,25 @@ a{
     }
     h3{
         padding: 2em 2em;
-        font-size: 1.5em;
+        font-size: 2em;
         letter-spacing: 1px;
         font-weight: 600;
     }
     p{
-        width:75%;
+        width: 100%;
         padding: 0 1em 0 2.5em;
         margin-bottom: 3em;
-        font-size: 1rem;
+        font-size: 1.2rem;
         
     }
     .profile{
-        position: relative;
-        width: 100px;
-        height: 100px;
+       
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
         background-color: #fff;
-        position: absolute;
-        margin-top: -13.5em;
-        margin-left: 80%;
+        margin: 2em 5em;
+     
         border: 2px solid #ff9c07;
     }
 
@@ -620,16 +652,20 @@ a{
       
         height: 38em;
         display: block;
-        background-color: #000;
+        background-color: #fff;
     }
-
+ 
     .process{
        
         width: 100%; 
         margin-bottom: .5rem;  
-        color: #fff;
+        color: #000;
     }
-
+    .inner{
+        width: 100%;
+        margin: 1em auto;
+        
+    }
     .process h6{
         padding: 1rem 0 0 1em;
         font-size: 2em;
@@ -638,8 +674,8 @@ a{
     }
     .process p{
         font-size: 1.2rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 0rem;
+        
         text-align: left;
         line-height: 1.5em;
         margin: 1em auto;
@@ -676,5 +712,10 @@ a{
         margin: 1em auto;
         font-size: 1rem;
         font-weight: 500;
+    }
+    .contact{
+        width: 100%;
+        height: 40em;
+        background-color: #000;
     }
 }
