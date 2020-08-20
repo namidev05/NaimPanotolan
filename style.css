@@ -40,9 +40,9 @@
     font-size: 1.2rem;
 }
 .container h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     letter-spacing: 2px;
 }
 .container p{
@@ -50,9 +50,12 @@
     font-weight: 500;
     letter-spacing: .5px;
     margin-bottom: 1em;
-    margin-left: -3rem;
+    margin-left: -1.8rem;
     width: 70%;
-    
+}
+.ups1{
+    width: 100%;
+    margin-left: -2rem;
 }
 .fas{
     margin: 0 .5rem;
@@ -61,7 +64,7 @@
 }
 .ul{
    display: flex ;
- 
+    margin-left: -.8rem;
 }
 ul li{
     display: flex;
@@ -140,19 +143,23 @@ ul .git:hover i{
     opacity: 1;
 }
 h3{
-    padding: 1em 2em;
+    padding: 1em 1.2em 1rem 1em;
     font-size: 2em;
     letter-spacing: 2px;
     font-weight: 800;
 }
 p{  
-    
-    padding: 0 0 0 3em;
-    margin-bottom: 3em;
+    padding: 0 0 0 1.5em;
+    margin-bottom: 1em;
     display: flex;
     font-size: 1.2rem;
     font-weight: 500;
-    
+    line-height: 1.2;   
+}
+p:nth-child(3){
+    margin-bottom: 3em;
+    width: 130%;
+    font-size: 1.2rem;
 }
 .Aboutss{
     display: flex;
@@ -169,7 +176,7 @@ p{
     height: 150px;
     border-radius: 50%;
     background-color: #fff;
-    margin: 1rem 3em 0 0;  
+    margin: 2em 2em 0 0;  
      /*position: absolute;
    margin-top: -17em;
     margin-left: 35em; */
@@ -219,7 +226,7 @@ p{
 }
 .wrapper h4{
     text-align: center;
-    margin-top: -2rem;
+    margin-top: 2rem;
     font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 800;
@@ -387,6 +394,10 @@ a{
         .logo h2{
             font-size: 1rem;
         }
+        .ups1{
+            width: 100%;
+            margin-left: 0;
+        }
         .ups{
             margin: 3em auto;
             width: 100%;  
@@ -398,10 +409,20 @@ a{
             letter-spacing: 1px;
         }
         .container p{
-            width: 310px;
+            width: 315px;
             font-size: 1.2rem;
-            margin: 0 1rem 2rem 1rem;
+            margin: 0 1rem 2rem -1rem;
             color: #fff;
+    }
+    p{
+        width: 100%;
+        padding: 0 1em 0 2.5em;
+        margin-bottom: 1em;
+        font-size: 1.2rem;
+    }
+    p:nth-child(3){
+        margin-bottom: 1em;
+        width: 100%;
     }
     .fas{
         padding-left: 1rem;
@@ -435,19 +456,20 @@ a{
         border-radius: 50%;
         background-color: #fff;
         border: 2px solid #ff9c07;
+        margin-top: 1rem;
     }
     h3{
        
-        padding: 3rem 0 2em 2em;
-        font-size: 1.5em;
+        padding: 3rem 0 2em 1em;
+        font-size: 1.8em;
         letter-spacing: 1px;
         font-weight: 600;
     }
     .about01 p{
         width: 130%;
-        padding: 0 1em 0 2rem;
+        padding: 0 1em 0 1.5rem;
         margin-bottom: 3em;
-        font-size: 1rem;
+        font-size: 1.2rem;
         letter-spacing: 1px;
     }
     p{
@@ -463,7 +485,7 @@ a{
         background-color: #fff;
         height: 55em;
         display: block;
-        
+      
         
     }
     .inner{
@@ -473,7 +495,7 @@ a{
     }
     
     .process{
-       
+        
         width: 90%; 
         margin: 0 auto;
         margin-bottom: .5rem;  
@@ -560,8 +582,12 @@ a{
         .logo h2{
             font-size: 1.3rem;
         }
+        .ul{
+            display: flex ;
+            margin-left: 0;
+         }
         .ups h1{
-            font-size: 3rem;
+            font-size: 4rem;
             font-weight: 600;
             margin: 1rem auto;
             letter-spacing: 1px;
@@ -570,13 +596,13 @@ a{
        
         .container p{
         
-        font-size: 1.2rem;
+        font-size: 1.5rem;
          color: #fff;
         width: 500px; 
         font-weight: 500;
         letter-spacing: .5px;
         margin-bottom: 1em;
-        margin-left: 15%;
+        margin-left: 14%;
            
     }
     .fas{
@@ -614,12 +640,15 @@ a{
     p{
         width: 100%;
         padding: 0 1em 0 2.5em;
-        margin-bottom: 3em;
+        margin-bottom: 1em;
         font-size: 1.2rem;
-        
+    }
+    p:nth-child(3){
+        margin-bottom: 1em;
+        width: 100%;
+        font-size: 1.2rem;
     }
     .profile{
-       
         width: 120px;
         height: 120px;
         border-radius: 50%;
@@ -638,7 +667,7 @@ a{
         flex-wrap: wrap;
     }
     .wrapper{
-        width: 340px;
+        width: 355px;
         height: 18em;
         background-color: #fff;
         margin: .5rem .5rem;
