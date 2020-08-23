@@ -58,3 +58,21 @@ pro.forEach(pro => {
 contact.forEach(contact => {
     appearsOnscroll1.observe(contact);
 });
+
+
+$(document).ready(function(){
+    
+  
+    $(window).scroll(function(){
+        $('.ups').css("opacity", 1 - 
+            $(window).scrollTop()/150)
+    })
+})
+$(document).ready(function(){
+
+
+$(window).scroll(function(){
+    $('.moreMore').css("opacity", 1 - 
+        $(window).scrollTop()/50)
+})
+})

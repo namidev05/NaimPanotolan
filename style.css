@@ -7,7 +7,6 @@
 
 .top{
     width: 100%;
-    height: 75vh;
       /*  background: linear-gradient(to left,  #7edfe4, #07fff3, #FFC107); */ 
     position: fixed;
     background: linear-gradient(to left,   #ff4007,#FFC107 );
@@ -40,13 +39,13 @@
     font-size: 1.2rem;
 }
 .container h1{
-    font-size: 2.8rem;
+    font-size: 3.4rem;
     font-weight: 600;
     margin-bottom: .5rem;
     letter-spacing: 2px;
 }
 .container p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: .5px;
     margin-bottom: 1em;
@@ -65,6 +64,7 @@
 .ul{
    display: flex ;
     margin-left: -.8rem;
+    padding-bottom: 10em;
 }
 ul li{
     display: flex;
@@ -130,7 +130,7 @@ ul .git:hover i{
     background-color: rgb(73, 60, 60);
     color: #fff;
     top: 65vh;
-    height: 345vh;
+  
     border-radius: 10px;
 }
 .fade-in{
@@ -143,7 +143,7 @@ ul .git:hover i{
     opacity: 1;
 }
 h3{
-    padding: 1em 1.2em 1rem 1em;
+    padding: .5rem 1.2em 1rem 1em;
     font-size: 2em;
     letter-spacing: 2px;
     font-weight: 800;
@@ -156,16 +156,22 @@ p{
     font-weight: 500;
     line-height: 1.2;   
 }
-p:nth-child(3){
+.moreMore{
+    text-align: center;
+    /*margin-top: 7.5em;*/
+    font-weight: 500;
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+.about01 p:nth-child(3){
     margin-bottom: 3em;
-    width: 130%;
+    width: 100%;
     font-size: 1.2rem;
 }
 .Aboutss{
     display: flex;
     justify-content: space-between;
-
-
 }
 .about01{
     
@@ -176,7 +182,7 @@ p:nth-child(3){
     height: 150px;
     border-radius: 50%;
     background-color: #fff;
-    margin: 2em 2em 0 0;  
+    margin: .5rem 2em 0 0;  
      /*position: absolute;
    margin-top: -17em;
     margin-left: 35em; */
@@ -215,7 +221,7 @@ p:nth-child(3){
 }
 .wrapper p{
     margin-top: 2em;
-    margin-left: auto;
+ 
     margin-right: auto;
     font-size: 1.2rem;
     letter-spacing: 1px;
@@ -248,8 +254,8 @@ p:nth-child(3){
 .proqua{
     position: relative;
     margin: 1em auto;
-    width: 90%;
-    height: 32em;
+    width: 95%;
+
     background-color: rgb(171 230 233 / 20%);
     color: #000;
     display: flex;
@@ -267,7 +273,6 @@ p:nth-child(3){
 .inner{
     display: flex;
     justify-content: space-between;
-    
 }
 .process{
     position: relative;
@@ -278,14 +283,36 @@ p:nth-child(3){
     color: #fff;
 }
 .process h6{
-    padding: 1rem 0 0 1em;
+    padding: 1rem 0 0 1rem;
     font-size: 2em;
     letter-spacing: 2px;
     font-weight: 800;
 }
 .process p{
     font-size: 1rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 1em auto;
+}
+.qualification{
+    position: relative;
+    width: 45%;
+    padding: 1rem 0 1em 0;
+    margin: 1em 1em;    
+    background-color: rgb(255 152 0 / 5%);
+    color: #fff;
+}
+.qualification h6{
+    padding: 1rem 0 0 1rem;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.qualification p{
+    font-size: 1rem;
+    padding-left: 1rem;
     padding-right: 1rem;
     text-align: left;
     line-height: 1.5em;
@@ -293,7 +320,7 @@ p:nth-child(3){
 }
 .contact{
     width: 100%;
-    height: 15em;
+    height: 16em;
 }
 .contact h8{
     text-align: left;
@@ -337,6 +364,7 @@ p:nth-child(3){
     border-radius: 10px;
     margin-top: .5rem;
     margin-left: 40%;
+    margin-bottom: 1em;
 }
 .footer{
     text-align: center;
@@ -373,249 +401,148 @@ a{
     font-weight: 500;
 }
 
-@media only screen 
-    and (min-device-width: 320px)
-    and (max-device-width: 640px)
-    and (-webkit-min-device-pixel-ratio: 1){
-        .top{
-          position: fixed;
-        
-        }
-        .container{
-          width: 100%;
-          color: #fff;
-        }
-        .logo{
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            margin-left: 3.5rem;
-        }
-        .logo h2{
-            font-size: 1rem;
-        }
-        .ups1{
-            width: 100%;
-            margin-left: 0;
-        }
-        .ups{
-            margin: 3em auto;
-            width: 100%;  
-        }
-        .container h1{
-            font-size: 2rem;
-            font-weight: 600;
-            margin: 1rem 0 1rem 1rem;
-            letter-spacing: 1px;
-        }
-        .container p{
-            width: 315px;
-            font-size: 1.2rem;
-            margin: 0 1rem 2rem -1rem;
-            color: #fff;
-    }
-    p{
-        width: 100%;
-        padding: 0 1em 0 2.5em;
-        margin-bottom: 1em;
-        font-size: 1.2rem;
-    }
-    p:nth-child(3){
-        margin-bottom: 1em;
-        width: 100%;
-    }
-    .fas{
-        padding-left: 1rem;
-    }
-    .second{
-        width: 100%;
-        background-color: rgb(73, 60, 60);
-        color: #fff;
-        top: 65vh;
-        border-radius: 10px;
-        border-radius: 0;
-        height: 420vh;
-        z-index: 1000;
-    }
-    .tag{
-        position: relative;
-        font-weight: 700;
-        font-size: 1.5rem;
-        padding: .5rem .2rem;
-        background-color: #ff9c07;
-        border-radius: 5px;
-        z-index: 1000;
-        margin-left: 20%;
-        margin-right: 20%;
-        text-align: center;
-    }
-    .profile{
-    
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        background-color: #fff;
-        border: 2px solid #ff9c07;
-        margin-top: 1rem;
-    }
-    h3{
-       
-        padding: 3rem 0 2em 1em;
-        font-size: 1.8em;
-        letter-spacing: 1px;
-        font-weight: 600;
-    }
-    .about01 p{
-        width: 130%;
-        padding: 0 1em 0 1.5rem;
-        margin-bottom: 3em;
-        font-size: 1.2rem;
-        letter-spacing: 1px;
-    }
-    p{
-        width: 100%;
-        padding: 0 1em 0 2rem;
-        margin-bottom: 3em;
-        font-size: 1rem;
-        letter-spacing: 1px;
-        
-    }
-    .proqua{
-        margin: 1em auto;
-        background-color: #fff;
-        height: 55em;
-        display: block;
-      
-        
-    }
-    .inner{
-        display: block;
-         z-index: 1000; 
-        
-    }
-    
-    .process{
-        
-        width: 90%; 
-        margin: 0 auto;
-        margin-bottom: .5rem;  
-        color: #000;
-    }
 
-    .process h6{
-        padding: 1rem 0 0 1em;
-        font-size: 2em;
-        letter-spacing: 2px;
-        font-weight: 800;
-    }
-    .process p{
-        font-size: 1rem;
-        padding-left: 0;
-        padding-right: 1rem;
-        text-align: left;
-        line-height: 1.5em;
-        margin: 1em auto;
-    }
-    .btn2{
-        margin-left: 30%;
-    }
-    .footer{
-        text-align: center;
-        width: 100%;
-        height: 12em;
-        background-color: #000;
-      
-    }
-    .epal{
-        font-size: 2em;
-        font-weight: 9800;
-        padding-top: 1.5rem;
-    }
-    .epal span{
-        color: yellow;
-    }
-    .fa{
-        margin: 0 1em;
-    }
-    
-    a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-    }
-    .copy{
-        margin: 1em auto;
-        font-size: 1rem;
-        font-weight: 500;
-    }
-    .contact{
-       background-color: rgb(39, 31, 31);
-    }
-}
-
-@media only screen 
-    and (min-device-width: 768px)
-    and (max-device-width: 1025px)
-    and (-webkit-min-device-pixel-ratio: 1){
-        .top{
-         
-            height: 50vh;
-        }
-        .container{
-        color: #000;
-        padding-top: 0;
-        position: relative;
-        width: 100%;
-        color: #fff;
-        }
-        .ups{
-            width: 90%;
-            margin: 4em auto;
-        }
-        .logo{
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            margin-left: 3.5rem;
-        }
-        .logo h2{
-            font-size: 1.3rem;
-        }
-        .ul{
-            display: flex ;
-            margin-left: 0;
-         }
+   
+    /*@media (max-device-width: 920px){
         .ups h1{
-            font-size: 4rem;
-            font-weight: 600;
+            font-size: 1.2rem;
+            font-weight: 700;
             margin: 1rem auto;
             letter-spacing: 1px;
-            margin-left: 20%;
+            margin-left: 10%;
         }  
-       
+    
         .container p{
-        
         font-size: 1.5rem;
-         color: #fff;
+        color: #fff;
         width: 500px; 
         font-weight: 500;
         letter-spacing: .5px;
         margin-bottom: 1em;
-        margin-left: 14%;
-           
+        margin-left: 16%;
+        
     }
+}*/
+
+@media (max-width: 1025px)
+
+{     
+   
+    
+    .second{
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        background-color: rgb(73, 60, 60);
+        color: #fff;
+        border-radius: 10px;
+        top: 35vh;
+    }
+    /*.container h1{
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin-bottom: .5rem;
+        letter-spacing: 2px;
+    }
+    .moreMore{
+        text-align: center;
+        padding: 3em 0 5em 0;
+        font-weight: 500;
+        color: #fff;
+        font-size: 1rem;
+
+    }
+    .container p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: .5px;
+        margin-bottom: 1em;
+        margin-left: -1.8rem;
+        width: 70%;
+    } 
+  
+    .profile{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: #fff;
+    
+     
+        border: 2px solid #ff9c07;
+    }
+    
+    .wrap{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }*/
+    .wrapper{
+        width: 320px;
+        background-color: #fff;
+        margin: .5rem .5rem;
+        position: relative;
+        color: #000;
+    }
+    
+}
+
+@media (max-width: 920px){
+    .top{
+        padding-bottom: 1em;
+       
+    }
+    .container{
+    color: #000;
+    padding-top: 0;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    }
+    .profile{
+        margin: 1em 2em 0 0;
+    }
+
+    .ups{
+        width: 70%;
+        margin: 2em auto;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-left: 3.5rem;
+    }
+    .logo h2{
+        font-size: 1.3rem;
+    }
+    .ul{
+        display: flex ;
+        margin-left: -7rem;
+     }
+
     .fas{
         padding-left: 20%;
     }
+    .moreMore{
+        text-align: center;
+        /*margin-top: 2em;
+        padding: 2em 0 8em 0;*/
+        font-weight: 500;
+        color: #fff;
+        font-size: 1rem;
+       
+    }
     .second{
-        width: 100%;
+        width: 90%;
         background-color: rgb(73, 60, 60);
         color: #fff;
         top: 50vh;
         border-radius: 10px;
         border-radius: 0;
-        height: 205vh;
     }
     .tag{
         position: relative;
@@ -632,63 +559,36 @@ a{
         margin-bottom: 1em;
     }
     h3{
-        padding: 2em 2em;
-        font-size: 2em;
+        padding: 1em 1em;
+        font-size: 2.5em;
         letter-spacing: 1px;
         font-weight: 600;
     }
     p{
-        width: 100%;
-        padding: 0 1em 0 2.5em;
+      
+        padding: 0 1em 0 1.5em;
         margin-bottom: 1em;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
-    p:nth-child(3){
+    .about01 p:nth-child(3){
         margin-bottom: 1em;
-        width: 100%;
-        font-size: 1.2rem;
-    }
-    .profile{
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        background-color: #fff;
-        margin: 2em 5em;
-     
-        border: 2px solid #ff9c07;
-    }
-
-    .wrap{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    .wrapper{
-        width: 355px;
-        height: 18em;
-        background-color: #fff;
-        margin: .5rem .5rem;
-        position: relative;
-        color: #000;
+        width: 130%;
+        font-size: 1.5rem;
     }
 
 
     .proqua{
-        margin: 1.2em auto;
-      
-        height: 38em;
+        margin: 2em auto;
         display: block;
-        background-color: #fff;
+        height: 65vh;
+
     }
- 
+
     .process{
-       
-        width: 100%; 
+    
+        width: 50%; 
         margin-bottom: .5rem;  
-        color: #000;
+
     }
     .inner{
         width: 100%;
@@ -708,6 +608,21 @@ a{
         text-align: left;
         line-height: 1.5em;
         margin: 1em auto;
+        
+    }
+
+    .qualification{
+      
+        width: 50%;
+    
+    }
+    .wrapper{
+        width: 320px;
+        height: 18em;
+        background-color: #fff;
+        margin: .5rem .5rem;
+        position: relative;
+        color: #000;
     }
     .btn2{
         margin-left: 40%;
@@ -715,9 +630,224 @@ a{
     .footer{
         text-align: center;
         width: 100%;
-        height: 14em;
+
         background-color: #000;
+    
+    }
+    .epal{
+        font-size: 2em;
+        font-weight: 900;
+        padding-top: 1.5rem;
+    }
+    .epal span{
+        color: yellow;
+    }
+    .fa{
+        margin: 0 1em;
+    }
+
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .copy{
+        margin: 1em auto;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .contact{
+        width: 100%;
+        background-color: #000;
+    }
+   
+}
+
+@media (max-width: 640px){
+     .btn{
+         padding: .5rem .8em;
+     }
+    .top{
+        position: fixed;
+        padding-bottom: 8em;
+    }
+    .container{
+      width: 100%;
+      color: #fff;
+    }
+    .moreMore{
+        text-align: center;
+        /*margin-top: 1em;
+        padding: 2em 0 10em 0;*/
+        font-weight: 500;
+        color: #fff;
+        font-size: 1rem;
+       
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 3.5rem;
+    }
+    .logo h2{
+        font-size: 1rem;
+    }
+    .ups1{
+        width: 100%;
+       
+    }
+    .ups{
+        margin: 1em auto;
+     
+    }
+    .ul{
+        display: flex ;
+        margin-left: -.6rem;
+     }
+    .container h1{
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 1rem 0 1rem 1rem;
+        letter-spacing: 1px;
+    }
+    .container p{
+        width: 315px;
+        font-size: 1.2rem;
+        margin: 0 1rem 2rem -1rem;
+        color: #fff;
+    }
+    p{
+        width: 100%;
+   
+        margin-bottom: 1em;
+        font-size: 1.2rem;
+    }
+   
+    .fas{
+        padding-left: 1rem;
+    }
+    .second{
+        width: 100%;
+        background-color: rgb(73, 60, 60);
+        color: #fff;
+        top: 60vh;
+        border-radius: 10px;
+        border-radius: 0;
+        z-index: 1000;
+    }
+    .tag{
+        position: relative;
+        font-weight: 700;
+        font-size: 1.5rem;
+        padding: .5rem .2rem;
+        background-color: #ff9c07;
+        border-radius: 5px;
+        z-index: 1000;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
+    .profile{
+
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 2px solid #ff9c07;
+        margin: -1rem 1em 0 0;
+    }
+
+    h3{
+        padding: 1rem 0 1.2em 1em;
+        font-size: 1.8em;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .about01 p{
+        width: 130%;
+        padding: 0 1em 0 1.5rem;
+        margin-bottom: 1em;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+    .about01 p:nth-child(3){
+        font-size: 1.2rem;
+        width: 130%;
+     }
+    p{
+        width: 100%;
+        padding: 0 1em 0 2rem;
+        margin-bottom: 3em;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        
+    }
+    .wrapper .more{
+        margin: 2rem 6em -1rem 6em;
+        padding: .2rem 1rem;
+        background-color: #ff2907;
+        border-radius: 10px;
+        text-align: center;
+        color: #fff;
+        font-weight: 800;
+    }
+    .wrapper p{
+    
+        width: 90%;
+        margin: 2em auto 0 -1rem;
+    }
+    .proqua{
+        margin: 1em auto;
+        background-color: #fff;
+        display: block;
+        height: 120vh;
+        
+    }
+    .inner{
+        display: block;
+        z-index: 1000; 
+     
+    }
+
+    .process{
+        
+        width: 90%; 
+        margin: 0 auto;
+        margin-bottom: .5rem;  
+        color: #000;
+        
+    }
+
+    .process h6{
+        padding: 1rem 0 0 1em;
+        font-size: 2em;
+        letter-spacing: 2px;
+        font-weight: 800;
+    }
+    .process p{
+        font-size: 1rem;
+        padding-left: 0;
+        padding-right: 1rem;
+        text-align: left;
+        line-height: 1.5em;
+        margin: 1em auto;
+        
+    }
+    .qualification{
+        width: 90%;
       
+    }
+    .btn2{
+        margin-left: 30%;
+    }
+    .footer{
+        text-align: center;
+        width: 100%;
+        background-color: #000;
+    
     }
     .epal{
         font-size: 2em;
@@ -730,7 +860,7 @@ a{
     .fa{
         margin: 0 1em;
     }
-    
+
     a{
         display: flex;
         align-items: center;
@@ -743,8 +873,6 @@ a{
         font-weight: 500;
     }
     .contact{
-        width: 100%;
-        height: 40em;
-        background-color: #000;
+    background-color: rgb(39, 31, 31);
     }
 }
