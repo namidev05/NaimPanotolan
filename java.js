@@ -4,7 +4,7 @@ const contact = document.querySelectorAll('.fade-in2');
 
 const appearoptions = {
     thread: 0,
-    rootMargin: "0px 0px -250px 0px"  
+    rootMargin: "0px 0px -350px 0px"  
 };
 
 const appearsOnscroll = new IntersectionObserver(
