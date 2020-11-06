@@ -251,17 +251,17 @@ p{
     font-weight: 500;
     width: 80%;
    text-align: center;
-   padding-left: 2em;
+
 }
 .wrapper h4{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 800;
 }
 .wrapper .more{
-    margin: 1rem 6em 1rem 6em;
+    margin: .5rem 5em 1rem 5em;
     padding: .2rem 1rem;
     background-color: #ff2907;
     border-radius: 10px;
