@@ -19,17 +19,11 @@ const appearsOnscroll = new IntersectionObserver(
                 appearsOnscroll.unobserve(entry.target);
             }
         })
-
         },
 appearoptions);
-
-
 abouts.forEach(abouts => {
     appearsOnscroll.observe(abouts);
 })
-
-
-
 const appearoptions1 = {
     thread: 0,
     rootMargin: "0px 0px -200px 0px"  
