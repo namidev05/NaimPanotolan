@@ -4,6 +4,7 @@
     --logo-load-time: 200ms;
     --header-load-time: 400ms;
     --ul-load-time: 600ms; 
+    font-family: 'Roboto', sans-serif;
 }
 
 .top{
